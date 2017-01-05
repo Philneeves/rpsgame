@@ -1,6 +1,25 @@
-alert("Take your pick: Rock, Paper or Scissors");
+//alert("Take your pick: Rock, Paper or Scissors");
 
-$('.image').hide().fadeIn(5000);
+//$('.head1').fadeIn().fadeOut(1000, function(){
+$(window).on("load", function(){
+
+  $('.head1').fadeOut(2000, function(){
+    $('.rpsCover').fadeOut(2000);
+    $('.image').fadeIn(2000, function(){
+    $('.image').addClass('image2');
+    $('.starter').slideDown()
+    });
+  });
+});
+
+//$('.image').hover(
+//       function(){ $(this).addClass('image2') },
+  //     function(){ $(this).removeClass('image2') }
+//);
+
+
+
+
 
 
 $('#myBtn1').on('click', function() {

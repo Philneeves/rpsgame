@@ -1,9 +1,48 @@
 body {
 	text-align: center;
-	background-color: #FFF200;
+	background-color: #3F5D85;
 }
 
 h1 {
 	color: red;
 }
 
+.container {
+  /*max-width: 940px;*/
+  margin: 0 auto;
+}
+
+.main {
+  position: relative;
+}
+
+video {
+  width: 100%;
+  margin: -10px;
+}
+
+.main .content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.starter, .image {
+	display: none;
+}
+
+.starter {
+	font-size: 30px;
+}
+
+.head1 {
+	font-size: 35px;
+}
+.image2 {
+	width: 400px;
+    height: 300px;
+    transition: width 5s, height 5s;
+}
